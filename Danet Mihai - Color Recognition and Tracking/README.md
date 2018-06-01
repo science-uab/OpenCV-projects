@@ -13,7 +13,7 @@ Calculate object position
 Draw a line from the previous to the current point
 
 ### Screenshot
-![Alt text](FingerDetection.png?raw=true "Title")
+![screenshot](screenshot.png?raw=true "Title")
 
 ### License
 MIT
