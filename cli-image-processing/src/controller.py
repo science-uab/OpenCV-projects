@@ -2,6 +2,7 @@ import os
 import settings
 import cv2
 import time
+import requests
 
 
 class App:
@@ -21,6 +22,7 @@ class App:
     def run(self):
         self.original_images = self.get_original_images()
         self.get_processed()
+        self.make_request(os.getenv("GREEN_LED"))
         if self.compute_diff():
             self.compute_abs_path_to_original_images()
             self.cv_read_images()
@@ -28,6 +30,7 @@ class App:
             self.cv_process_and_write_grayscale()
             self.cv_process_and_write_canny()
             self.write_processed()
+            self.make_request(os.getenv("GREEN_LED"))
 
     def write_processed(self):
         path_to_processed_manifest = os.getenv("PROCESSED_IMAGES_MANIFEST")
@@ -47,6 +50,7 @@ class App:
     def compute_diff(self):
         diff = list(filter(lambda x: x not in self.processed_images, self.original_images))
         if len(diff) > 0:
+            self.make_request(os.getenv("YELLOW_LED"))
             self.original_images = diff
             for image in self.original_images:
                 print("Image {} was found. Proceeding...".format(image))
@@ -125,3 +129,8 @@ class App:
                 i += 1
                 if i == len(self.original_images):
                     break
+
+    def make_request(self, route):
+        indicator_ip = os.getenv("INDICATOR_IP")
+        full_route = "http://{}/{}".format(indicator_ip, route)
+        requests.get(full_route)
