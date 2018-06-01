@@ -12,6 +12,9 @@ Remove noise (small objects and small holes)
 Calculate object position
 Draw a line from the previous to the current point
 
+### Screenshot
+![Alt text](FingerDetection.png?raw=true "Title")
+
 ### License
 MIT
 
