@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android OCR</string>
+    <string name="action_settings">Setari</string>
+    <string name="title_activity_login">Start</string>
+    <string name="title_activity_recognize">Recunoaste text</string>
+    <string name="text_btn_exit">Exit</string>
+    <string name="text_btn_camera">Scaneaza text</string>
+    <string name="text_btn_login">Start</string>
+    <string name="text_btn_take_pic">Coverteste text</string>
+    <string name="text_hint_result">Text</string>
+    <string name="text_lb_select_language">Optiuni</string>
+    <string-array name="language_array">
+        <item>English</item>
+    </string-array>
+<string-array name="threshold_array">
+        <item>85</item>
+        <item>100</item>
+        <item>125</item>
+        <item>150</item>
+    </string-array>
+</resources>
