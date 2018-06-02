@@ -5,6 +5,8 @@ Opencv
 
 Iga (Voronianu) Sanda  Florina Master PABD anul I 2018
 
+<img src="https://imgur.com/B37bMrb" />
+
 Descriere: Programul  realizează citirea  și   afisarea unei imagini din folderol proiectului. #include <opencv2/core/core.hpp> #include <opencv2/highgui/highgui.hpp> Declararea  fisierelor de tip include OpenCV. Mat imread(const string& filename , int flags=1) Incarca  o imagine de pe disc.filename: numele fisierului imagine; flags: indicator de incarcare a tipului de imagine:
 
 CV LOAD_IMAGE ANYDEPTH: incarcă o imagine pe 16-biti \32-biti  atunci  cand  imaginea  corespunde acestor rezolutii, altfel converteste imaginea la 8-biti;
