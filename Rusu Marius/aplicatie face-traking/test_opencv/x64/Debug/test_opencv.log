@@ -1,0 +1,4 @@
+﻿  stdafx.cpp
+  test_opencv.cpp
+c:\users\statia59\desktop\proiect opencv\aplicatie face-traking\test_opencv\test_opencv.cpp(59): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  test_opencv.vcxproj -> C:\Users\STATIA59\Desktop\proiect opencv\aplicatie face-traking\x64\Debug\test_opencv.exe
