@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.0)
+set(CMAKE_BUILD_TYPE Debug)
+project( ImageConverter )
+find_package( OpenCV REQUIRED )
+add_executable( ImageConverter imgConvert.cpp )
+target_link_libraries( ImageConverter ${OpenCV_LIBS} )
