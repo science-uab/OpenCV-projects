@@ -4,8 +4,6 @@ Roboti inteligenti
 
 Nume:  Iga (Voronianu) Sanda  Florina
 
-Email: vorosanda@gmail.com
-
 Master PABD anul I 2018
 
 ###Descriere:
