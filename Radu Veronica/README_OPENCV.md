@@ -1,5 +1,7 @@
 # Imagine_Robotică
----
+---![alt text](https://github.com/ceausuveronica/ceausuveronica.github.io/blob/master/Captur%C4%83%20Visual%20Studio.PNG "Logo Title Text 1")
+
+
 _
 
 The project contains the following files:
