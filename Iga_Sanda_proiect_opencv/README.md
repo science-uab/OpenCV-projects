@@ -30,5 +30,5 @@ delay:  intarzierea  in milisecunde (0 reprezinta   asteptare infinita).
 
 Rezultatul  executării aplicației.
 
-![Alt text](captura opencv.jpg?raw=true "Title")
+![alt text](https://github.com/vorosanda/OpenCV-projects/blob/master/Iga_Sanda_proiect_opencv/captura%20opencv.jpg "Printscreen")
 
