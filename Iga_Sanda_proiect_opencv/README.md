@@ -1,6 +1,20 @@
-Iga (Voronianu) Sanda  Florina
-Master PABD anul I 2018
+Iga (Voronianu) Sanda  Flori
 
+
+
+
+
+###Descriere:
+
+Programul  realizează  citirea  și   afisarea  unei imagini din folderol proiectului.
+
+
+
+#include <opencv2/core/core .hpp>
+
+#include <opencv2/highgui/highgui .hpp>
+
+Declarare
 
 ###Descriere:
 Programul  realizează  citirea  și   afisarea  unei imagini din folderol proiectului.
