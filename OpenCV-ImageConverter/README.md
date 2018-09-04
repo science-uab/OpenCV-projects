@@ -9,4 +9,5 @@ Creating an image RGB to grayscale converter using OpenCV library and C++ langua
 
 Author: Radu Goada
 
-![alt-text] (https://github.com/science-uab/OpenCV-projects/tree/master/OpenCV-ImageConverter/ScreenShot.png "Logo Title Text 1")
+### Screenshot
+![screenshot](ScreenShot.png?raw=true "ImageConverter")
