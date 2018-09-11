@@ -1,0 +1,3 @@
+﻿  OpenCV_proiect.cpp
+c:\users\robi\source\repos\opencv_proiect\opencv_proiect\opencv_proiect.cpp(68): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  OpenCV_proiect.vcxproj -> C:\Users\robi\source\repos\OpenCV_proiect\x64\Debug\OpenCV_proiect.exe
